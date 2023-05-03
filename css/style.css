@@ -1,0 +1,34 @@
+/* Reset CSS */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+
+/* Custom PROPERTIES */
+:root {
+    --title-color: #e53170;
+    --link-color: #00abe9;
+}
+
+
+
+
+/* Generics */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* Utilties */
+.conteiner {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+/* Main */
+
+/* Footer */
