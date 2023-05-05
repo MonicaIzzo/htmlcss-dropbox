@@ -587,5 +587,29 @@ operations, .faq {
 
 
 .overlay-designit {
+    display: block;
+}
+.overlay-arizona {
     display: none;
+}
+.overlay-florida {
+    display: none;
+}
+.overlay-topps {
+    display: none;
+}
+.overlay-world {
+    display: none;
+}
+.overlay-planet {
+    display: none;
+}
+.overlay-channel {
+    display: none;
+}
+.overlay-designit {
+    display: block;
+}
+.overlay-designit {
+    display: block;
 }
