@@ -35,9 +35,9 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight:700;
-    margin-bottom:  var(--mg-bt-small);
+    margin-bottom: 40px;
 }
 
 h3 {
@@ -74,6 +74,13 @@ a {
     text-align: center;
 }
 
+.btn-normal-100 {
+    background-color: white;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
 .btn-normal {
     border: 1px solid #aaa;
     text-decoration: none;
@@ -81,7 +88,7 @@ a {
 }
 
 p {
-line-height: 2; 
+line-height: 1.5; 
 }
 
 hr {
@@ -246,7 +253,7 @@ margin: 40px 0;
 /* #MAIN */
 .main-conteiner {
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 
 .main {
@@ -315,6 +322,10 @@ operations, .faq {
     border: 1px solid var(--secondary-color);
     height: 250px;
 }
+.column-full-noborder {
+    width:  100%;
+    height: 250px;
+}
 
 
 .table-flex {
@@ -341,7 +352,7 @@ operations, .faq {
 }
 
 .body-table {
-    padding: 20px;
+    padding: 40px;
 }
 
 .normal-a {
@@ -386,12 +397,10 @@ operations, .faq {
 
 .col-large {
     flex-basis: 70%;
-    background-color: antiquewhite;
 }
 
 .col-small {
     flex-basis: 30%;
-    background-color: antiquewhite;
     padding: 40px;
 }
 
@@ -399,3 +408,52 @@ operations, .faq {
     max-width: 100%;
     display: block;
 }
+
+
+
+.operations .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.operations .row img {
+    max-width: 100%
+}
+
+.col-3-3 {
+    padding: 40px;
+    flex-basis: calc(100% / 3);
+}
+
+.payoff {
+    height: 250px;
+}
+
+.call-to-action {
+    background-color: #b4d0e7;
+}
+
+#sponsors {
+    margin:100px 0;
+}
+
+#sponsors .square {
+    border: 2px dashed red;
+    width: calc(100vw / 3);
+    height: calc(100vw /3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sponsors > .small-square {
+    flex-basis: 50%;
+    border: 1px dashed black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners img {
+    width: 60%
+}
+
