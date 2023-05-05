@@ -42,7 +42,7 @@ h2 {
 
 h3 {
     font-weight:700;
-    margin-bottom:  var(--mg-bt);
+    margin-bottom: 20px;
 }
 
 h4 {
@@ -74,7 +74,11 @@ a {
     text-align: center;
 }
 
-
+.btn-normal {
+    border: 1px solid #aaa;
+    text-decoration: none;
+    padding: 8px 16px;
+}
 
 p {
 line-height: 2; 
@@ -94,10 +98,6 @@ margin: 40px 0;
     margin: 0 auto;
 }
 
-.flex {
-    display: flex;
-}
-
 .mg-bn {
     margin-bottom: var(--space);
 }
@@ -114,8 +114,16 @@ margin: 40px 0;
     margin-top: var(--space);
 }
 
+.mg-tp-small {
+    margin-top: var(--space-small);
+}
+
 .mg-tp-large {
     margin-top: var(--space-large);
+}
+
+.pd-tp {
+    padding-top: var(--space);
 }
 
 .pd-tp-large {
@@ -251,10 +259,10 @@ margin: 40px 0;
     height: 100px;
 }
 
-.contacts, .operations, .faq {
+operations, .faq {
     background-color: grey;
     border: 1px dashed white;
-    minheight: 100px;
+    min-height: 100px;
     margin: 4rem 0;
 }
 
@@ -265,6 +273,7 @@ margin: 40px 0;
     border-radius: 50%;
     background-color: white;
     border: 4px solid var(--highlighted-color);
+    margin: 5px;
 }
 
 .circle-on {
@@ -277,12 +286,13 @@ margin: 40px 0;
 }
 
 .subscription-options {
-    color: aqua;
     margin-right: 20px;
+    line-height: 30px;
+    vertical-align: top;
 }
 
 .subscription {
-    background-color: azure;
+    height: 30px;
 }
 
 .prince-table {
@@ -301,22 +311,19 @@ margin: 40px 0;
 }
 
 .column-full {
-    background-color: bisque;
     width:  100%;
-    border: 4px solid var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    height: 250px;
 }
 
 
-
-/* #FOOTER */
-
-.footer {
-    background-color: black;
-    border: 1px dashed white;
-    height: 600px;
+.table-flex {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
 }
-
-
 
 .header-table {
     border-bottom: 1px solid var(--secondary-color);
@@ -343,3 +350,52 @@ margin: 40px 0;
     padding: 0px 0px;
 }
 
+
+.btn-left {
+    flex-basis: 300px;
+}
+
+.footer-table {
+    padding: 0 20px;
+}
+
+.contacts {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+/* #FOOTER */
+
+.footer {
+    background-color: black;
+    border: 1px dashed white;
+    height: 600px;
+}
+
+
+
+
+
+.col-3-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start
+}
+
+.col-large {
+    flex-basis: 70%;
+    background-color: antiquewhite;
+}
+
+.col-small {
+    flex-basis: 30%;
+    background-color: antiquewhite;
+    padding: 40px;
+}
+
+.col-large img{
+    max-width: 100%;
+    display: block;
+}
