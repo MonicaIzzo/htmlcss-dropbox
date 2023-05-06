@@ -138,6 +138,10 @@ margin: 40px 0;
     padding-top: var(--space);
 }
 
+.pd-bn {
+    padding-bottom: var(--space);
+}
+
 .pd-tp-large {
     padding-top: var(--space-large);
 }
@@ -451,6 +455,7 @@ margin: 40px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 
@@ -462,7 +467,6 @@ margin: 40px 0;
     align-items: center;
     justify-content: center;
 }
-
 
 #sponsors img {
     width: 50%;
@@ -613,6 +617,11 @@ margin: 40px 0;
 
 }
 
+.footer-nav .nav a {
+    color: white;
+
+}
+
 .footer .footer-nav{
         display: flex;
 }
@@ -628,3 +637,16 @@ margin: 40px 0;
 .change-language > div {
     padding-right: 10px;
 } 
+
+.faq-items {
+    border-top: 1px solid #aaa;
+}
+
+.faq-end {
+    border-bottom: 1px solid #aaa;
+}
+
+.faq-item {
+    display: flex;
+    justify-content: space-between;
+}
