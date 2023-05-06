@@ -271,12 +271,7 @@ margin: 40px 0;
     height: 100px;
 }
 
-operations, .faq {
-    background-color: grey;
-    border: 1px dashed white;
-    min-height: 100px;
-    margin: 4rem 0;
-}
+
 
 .circle {
     display: inline-block;
@@ -382,13 +377,7 @@ operations, .faq {
 
 
 
-/* #FOOTER */
 
-.footer {
-    background-color: black;
-    border: 1px dashed white;
-    height: 600px;
-}
 
 
 
@@ -613,3 +602,29 @@ operations, .faq {
 .overlay-designit {
     display: block;
 }
+
+/* #FOOTER */
+
+.footer {
+    background-color: black;
+    border: 1px dashed white;
+    height: 450px;
+    color: white;
+
+}
+
+.footer .footer-nav{
+        display: flex;
+}
+
+.footer .footer-nav li{
+        padding: 10px 0;
+}
+
+.change-language {
+    display: flex;
+}
+
+.change-language > div {
+    padding-right: 10px;
+} 
