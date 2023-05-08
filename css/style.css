@@ -74,6 +74,19 @@ hr {
     margin: 40px 0;
 }
 
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding: 27px 16px;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: var(--highlighted-color);
+    padding: 27px 16px;
+    border-bottom: 2px solid var(--highlighted-color);
+}
+
 
 
 .btn-normal {
@@ -111,12 +124,14 @@ hr {
     color: white;
     background-color: var(--highlighted-color);
     border: 2px solid var(--highlighted-color);
+    padding: 8px 16px;
 }
 
 .btn-highlighted:hover {
     color: white;
     background-color: #aaa;
     border: 2px solid #aaa;
+    padding: 8px 16px;
 }
 
 
@@ -138,6 +153,19 @@ hr {
     border: 2px solid var(--secondary-color);
 }
 
+#btn-login {
+    color: white;
+    background-color: var(--highlighted-color);
+    border: 2px solid var(--highlighted-color);
+    padding: 8px 16px;
+}
+
+#btn-login:hover {
+    color: white;
+    background-color: #aaa;
+    border: 2px solid #aaa;
+    padding: 8px 16px;
+}
 
 
 /* Utilties */
@@ -264,6 +292,10 @@ hr {
     flex-grow: 1;
     height: 100%;
 }
+
+
+
+
 
 /* #HERO */
 .hero {
@@ -526,8 +558,10 @@ hr {
     height: 100px;
 }
 
-.designit:hover #overlay {
+#overlay::before {
     content: url(../img/arizona_state_university.svg);
+    height: 100px;
+    background-color: #61082b;
 }
 
 
@@ -660,6 +694,22 @@ hr {
 
 .footer-nav .nav a {
     color: white;
+    padding: 0;
+}
+
+.footer-nav .nav a {
+    color: white;
+    padding: 0;
+    padding: 8px 16px;
+    border-bottom: 0px solid var(--highlighted-color);
+}
+
+.footer-nav .nav a:hover {
+    color: white;
+    color: #aaa;
+    padding: 0;
+    padding: 8px 16px;
+    border-bottom: 0px solid var(--highlighted-color);
 }
 
 .footer .footer-nav{
